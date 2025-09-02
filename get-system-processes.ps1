@@ -1,5 +1,5 @@
 #!/bin/bash
-Write-Host "Hello, PowerShell!"
+Write-Host "Running Processes!"
 Get-Process | Select-Object -Property ProcessName, Id, CPU, WorkingSet
 git init
 git add .
